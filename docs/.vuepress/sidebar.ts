@@ -4,6 +4,13 @@ export const sidebar: SidebarOptions = {
   "/personal-experience/": [
     { text: "个人经验总览", link: "/personal-experience/" },
     {
+      text: "测试理论与用例设计",
+      collapsible: true,
+      children: [
+        { text: "需求分析与用例设计", link: "/personal-experience/testing-theory/" },
+      ],
+    },
+    {
       text: "多语言与本地化测试",
       collapsible: true,
       children: [
@@ -12,7 +19,16 @@ export const sidebar: SidebarOptions = {
     },
     { text: "业务测试与用例", link: "/personal-experience/business-testing/" },
     { text: "接口测试", link: "/personal-experience/api-testing/" },
-    { text: "性能测试", link: "/personal-experience/performance-testing/" },
+    {
+      text: "性能测试",
+      collapsible: true,
+      children: [
+        { text: "性能测试方案与分析", link: "/personal-experience/performance-testing/" },
+        { text: "JMeter 实战流程", link: "/personal-experience/performance-testing/jmeter-workflow/" },
+        { text: "移动端性能与卡顿", link: "/personal-experience/performance-testing/mobile-app/" },
+      ],
+    },
+    { text: "练习题", link: "/personal-experience/practice/" },
     { text: "兼容性与稳定性", link: "/personal-experience/compatibility/" },
     { text: "测试流程与规范", link: "/personal-experience/process/" },
     { text: "工具与自动化", link: "/personal-experience/tools/" },
