@@ -25,7 +25,8 @@ export default defineUserConfig({
   title: "2026年最新AI 测试开发学习路线",
   description:
     "从功能测试到质量工程的完整成长地图：传统测开功底 + AI 时代新赛道，免费开源持续更新",
-  base: "/",
+  // GitHub Pages serves this project repository below /ai-testing-guide/.
+  base: process.env.GITHUB_ACTIONS === "true" ? "/ai-testing-guide/" : "/",
 
   head: [
     // 百度搜索资源平台站点验证
@@ -48,14 +49,14 @@ export default defineUserConfig({
   ],
 
   theme: hopeTheme({
-    hostname: "https://ai.testfather.cn",
+    hostname: "https://githubxander1.github.io/ai-testing-guide",
     logo: "/logo.svg",
     author: "狂师",
     authorInfo: true,
 
-    repo: "zhoujinjian/ai-testing-guide",
+    repo: "githubxander1/ai-testing-guide",
     docsDir: "docs",
-    docsBranch: "main",
+    docsBranch: "my-practice",
     repoDisplay: true,
 
     editLink: true,

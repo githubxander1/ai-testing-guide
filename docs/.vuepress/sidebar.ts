@@ -1,6 +1,17 @@
 import type { SidebarOptions } from "vuepress-theme-hope";
 
 export const sidebar: SidebarOptions = {
+  "/my-practice/": [
+    { text: "个人实战总览", link: "/my-practice/" },
+    { text: "个人实战地图", link: "/my-practice/00-roadmap/" },
+    { text: "接口自动化实战", link: "/my-practice/01-api-automation/" },
+    { text: "UI 自动化实战", link: "/my-practice/02-ui-automation/" },
+    { text: "性能测试实战", link: "/my-practice/03-performance/" },
+    { text: "测试工程化", link: "/my-practice/04-engineering/" },
+    { text: "踩坑复盘", link: "/my-practice/05-bug-review/" },
+    { text: "面试问答整理", link: "/my-practice/06-interview/" },
+  ],
+
   "/roadmap/": [
     { text: "路线总览", link: "/roadmap/" },
     {
