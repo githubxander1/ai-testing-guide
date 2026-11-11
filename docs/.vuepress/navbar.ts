@@ -6,6 +6,7 @@ export const navbar: NavbarOptions = [
   { text: "面试题库", link: "/interview/", activeMatch: "^/interview/" },
   { text: "实战教程", link: "/knowledge/", activeMatch: "^/knowledge/" },
   { text: "个人实战", link: "/my-practice/", activeMatch: "^/my-practice/" },
+  { text: "个人经验", link: "/personal-experience/", activeMatch: "^/personal-experience/" },
   { text: "资源导航", link: "/resources/", activeMatch: "^/resources/" },
   { text: "AI 测开导航", link: "https://www.testfather.cn/" },
   { text: "工具导航", link: "https://www.kjdaohang.com/" },

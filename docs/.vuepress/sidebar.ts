@@ -1,6 +1,24 @@
 import type { SidebarOptions } from "vuepress-theme-hope";
 
 export const sidebar: SidebarOptions = {
+  "/personal-experience/": [
+    { text: "个人经验总览", link: "/personal-experience/" },
+    {
+      text: "多语言与本地化测试",
+      collapsible: true,
+      children: [
+        { text: "阿拉伯语 RTL 排版测试", link: "/personal-experience/localization/arabic-rtl/" },
+      ],
+    },
+    { text: "业务测试与用例", link: "/personal-experience/business-testing/" },
+    { text: "接口测试", link: "/personal-experience/api-testing/" },
+    { text: "性能测试", link: "/personal-experience/performance-testing/" },
+    { text: "兼容性与稳定性", link: "/personal-experience/compatibility/" },
+    { text: "测试流程与规范", link: "/personal-experience/process/" },
+    { text: "工具与自动化", link: "/personal-experience/tools/" },
+    { text: "问题复盘", link: "/personal-experience/lessons-learned/" },
+  ],
+
   "/my-practice/": [
     { text: "个人实战总览", link: "/my-practice/" },
     { text: "个人实战地图", link: "/my-practice/00-roadmap/" },
