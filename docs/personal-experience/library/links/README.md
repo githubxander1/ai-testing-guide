@@ -2,6 +2,9 @@
 
 收录没有下载到本地、或存放在其他网盘和网站上的测试资料。点击标题即可打开原始链接。
 
+钉钉文档：
+https://alidocs.dingtalk.com/i/desktop/folders/GZLxjv9VGqgqr0dwFqngjBeD86EDybno
+
 ## 接口测试
 
 | 资料名称 | 链接 | 简介/备注 |
