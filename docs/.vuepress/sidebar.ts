@@ -13,6 +13,7 @@ export const sidebar: SidebarOptions = {
         { text: "海外版项目用例", link: "/personal-experience/library/project-cases/" },
         { text: "接口与 Postman / JMeter", link: "/personal-experience/library/interface/" },
         { text: "性能测试资料", link: "/personal-experience/library/performance/" },
+        { text: "外部资料链接", link: "/personal-experience/library/links/" },
       ],
     },
     {
