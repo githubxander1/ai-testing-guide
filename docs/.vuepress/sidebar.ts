@@ -4,6 +4,18 @@ export const sidebar: SidebarOptions = {
   "/personal-experience/": [
     { text: "个人经验总览", link: "/personal-experience/" },
     {
+      text: "原始资料库下载",
+      collapsible: true,
+      children: [
+        { text: "资料库总览", link: "/personal-experience/library/" },
+        { text: "通用资料", link: "/personal-experience/library/general/" },
+        { text: "测试理论", link: "/personal-experience/library/testing-theory/" },
+        { text: "海外版项目用例", link: "/personal-experience/library/project-cases/" },
+        { text: "接口与 Postman / JMeter", link: "/personal-experience/library/interface/" },
+        { text: "性能测试资料", link: "/personal-experience/library/performance/" },
+      ],
+    },
+    {
       text: "测试理论与用例设计",
       collapsible: true,
       children: [
