@@ -1,0 +1,2 @@
+# Keep legacy Word files byte-for-byte; several .doc files are MHTML with CRLF.
+docs/.vuepress/public/downloads/testing-materials/**/*.doc binary
