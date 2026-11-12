@@ -18,7 +18,14 @@ export const sidebar: SidebarOptions = {
       ],
     },
     { text: "业务测试与用例", link: "/personal-experience/business-testing/" },
-    { text: "接口测试", link: "/personal-experience/api-testing/" },
+    {
+      text: "接口测试",
+      collapsible: true,
+      children: [
+        { text: "接口测试经验", link: "/personal-experience/api-testing/" },
+        { text: "JMeter 原始资料下载", link: "/personal-experience/api-testing/jmeter-materials/" },
+      ],
+    },
     {
       text: "性能测试",
       collapsible: true,
